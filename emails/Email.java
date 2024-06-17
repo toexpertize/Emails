@@ -127,8 +127,8 @@ public class Email {
     //generate email,using concaatination
     private String generateEmail() {
 
-        String generatedEmail = firsttName.concat(".").concat(lastName).concat("@").concat(company)
-                .concat(".").concat(department).concat(".com");
+        String generatedEmail = (firsttName.concat(".").concat(lastName).concat("@").concat(company)
+                .concat(".").concat(department).concat(".com")).toLowerCase();
         this.email = generatedEmail;
         count++;
         System.out.println("count : " + count);
