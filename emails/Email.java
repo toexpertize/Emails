@@ -145,7 +145,7 @@ public class Email {
         String pass = sc.nextLine();
 
         if (this.password.equals(pass) && this.email.equals(loginEmail)) {
-            System.out.println("Login is granted");
+            System.out.println("Login is granted for user : "+email);
             succsufullLogin = true;
             //System.out.println("Please enter your new password");
 
