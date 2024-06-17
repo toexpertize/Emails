@@ -138,7 +138,7 @@ public class Email {
     //login method
     private void logIn() {
 
-        System.out.println("Please enter your email");
+        System.out.println("Please enter your email to update your password");
         Scanner sc = new Scanner(System.in);
         String loginEmail = sc.nextLine();
         System.out.println("Please enter your temporary password");
